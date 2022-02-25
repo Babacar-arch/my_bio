@@ -27,34 +27,20 @@
 <body class="container-fluid">
 
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Babacar Ndong</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse ms-5" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projets">Projet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <div class="btn-toolbar m-5 ps-1" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+            <a href="#about" type="button" class="btn btn-dark">Top</a>
+            <a href="#projets" type="button" class="btn btn-dark">Project</a>
+            <a href="mailTo:ndongbabacar100@gmail.com" type="button" class="btn btn-dark">Contact</a>
         </div>
-    </nav>
+    </div>
+
 
     <!-- About me -->
     <div class="row mt-5">
 
         <div class="col-md-5 container">
-            <h1 class="fw-bold">Babacar Ndong</h1>
+            <h1 id="about" class="fw-bold">Babacar Ndong</h1>
             <p>Je suis designer et développeur web, mobile et desktop. Dans un processus de développement logiciel, je
                 peux intervenir
                 aussi bien en fontend qu’en backend avec l’usage de divers outils technologiques(Angular, Flutter,
